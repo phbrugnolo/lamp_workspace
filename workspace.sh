@@ -12,3 +12,6 @@ sudo mysql_secure_installation
 
 # Instalação do PHP
 sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-json php-cgi php-xml php-mbstring php-zip php-gd -y
+
+# Instalação do PHPMyAdmin
+sudo apt install phpmyadmin -y
