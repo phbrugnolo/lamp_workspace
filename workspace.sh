@@ -11,6 +11,15 @@ sudo systemctl enable apache2
 sudo apt install mysql-server -y
 sudo mysql_secure_installation
 
+# Alterando as senha do root
+sudo mysql -u root
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'sua_senha_aqui';
+FLUSH PRIVILEGES;
+EXIT;
+
+# Validando a alteracao da senha
+mysql -u root -p
+
 # Instalação do PHP
 sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-json php-cgi php-xml php-mbstring php-zip php-gd -y
 
