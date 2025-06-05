@@ -1,5 +1,6 @@
 # Atualização da Distro
 sudo apt update && sudo apt upgrade -y
+sudo apt install curl gpg gcc g++ plocate -y
 
 # Instalação e configuração do Apache2
 sudo apt install apache2 -y
