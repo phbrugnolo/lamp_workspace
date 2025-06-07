@@ -9,7 +9,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
 
-sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-json php-cgi php-xml php-mbstring php-zip php-gd -y
+sudo apt install php php-mysql php-cli php-curl php-json php-cgi php-xml php-mbstring php-zip php-gd -y
 
 git config --global user.email ""
 git config --global user.name ""
