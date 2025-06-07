@@ -1,7 +1,6 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl gpg gcc g++ plocate git-all mysql-server -y
 
-sudo apt install -y
 sudo mysql_secure_installation
 
 sudo mysql -u root -p
