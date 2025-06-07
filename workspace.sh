@@ -6,7 +6,7 @@ sudo mysql_secure_installation
 
 sudo mysql -u root -p
 CREATE USER 'dev'@'localhost' IDENTIFIED BY 'admin123';
-GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
 
